@@ -20,8 +20,8 @@
 
 
 ## Contributors
-<a href="https://github.com/noQ-sweden/noQ-Frontend/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=noQ-sweden/noQ-Frontend" />
+<a href="https://github.com/noQ-sweden/noq_end_to_end_tests/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=noQ-sweden/noq_end_to_end_tests" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
