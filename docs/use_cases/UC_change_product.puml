@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor Host as h
+
+rectangle ChangeProduct {
+    usecase "Get product information" as UC1
+    usecase "Modify product information" as UC2
+    usecase "Add new product" as UC3
+}
+
+h --> UC1
+h --> UC2
+h --> UC3
+@enduml

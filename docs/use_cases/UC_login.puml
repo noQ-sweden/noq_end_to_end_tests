@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor User as u
+actor Host as h
+actor CaseWorker as c
+
+rectangle Login {
+    usecase "Login" as UC1
+    usecase "Log out" as UC2
+}
+
+u --> UC1
+c --> UC1
+h --> UC1
+u --> UC2
+c --> UC2
+h --> UC2
+@enduml

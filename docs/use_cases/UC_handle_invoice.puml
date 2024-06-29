@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+actor Host as h
+actor CaseWorker as c
+
+rectangle InvoiceHandling {
+    usecase "Send Invoice to Case Worker" as UC1
+    usecase "Approve Invoice?" as UC2
+    usecase "Get User statistics?" as UC3
+}
+
+h --> UC1
+c --> UC2
+c --> UC3
+@enduml

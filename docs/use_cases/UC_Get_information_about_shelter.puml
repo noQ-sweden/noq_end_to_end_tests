@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+actor Host as h
+actor CaseWorker as c
+
+rectangle GetShelterInformation {
+    usecase "Get user statistics for homeless shelter for the coming week" as UC1
+    usecase "Get bookings queue" as UC2
+    usecase "Get checked in users" as UC3
+}
+
+h --> UC1
+c --> UC1
+h --> UC3
+h --> UC2
+@enduml

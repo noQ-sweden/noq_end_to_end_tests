@@ -10,7 +10,7 @@ rectangle Booking {
     usecase "Reserve Bed" as UC4
     usecase "Check in" as UC5
     usecase "Check out" as UC6
-
+    usecase "Approve Reservation" as UC7
 }
 
 u --> UC2
@@ -18,4 +18,5 @@ c --> UC3
 h --> UC4
 u --> UC5
 u --> UC6
+u --> UC7
 @enduml
