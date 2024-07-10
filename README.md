@@ -8,6 +8,10 @@
 
 **Node.js**: Ensure that you have Node.js installed. You can download and install it from [the official Node.js website](https://nodejs.org/).
 
+    npm install
+    npx playwright install
+    Ensure that you also have github cli installed.
+
 **noQ frontend**: Ensure that you have the noQ frontend server running
 
 **noQ backend**: In case you are not running the frontend in mocked mode, ensure that you have the noQ backend server running
