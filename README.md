@@ -10,6 +10,7 @@
 
     npm install
     npx playwright install
+    Ensure that you also have github cli installed.
 
 **noQ frontend**: Ensure that you have the noQ frontend server running
 
