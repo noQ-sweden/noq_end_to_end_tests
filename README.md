@@ -17,7 +17,7 @@
 **noQ backend**: In case you are not running the frontend in mocked mode, ensure that you have the noQ backend server running
 
 ### Running the test suite
-
+    npx playwright test
 ## Wiki
 
 ### Troubleshooting
