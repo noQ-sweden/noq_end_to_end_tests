@@ -6,7 +6,7 @@ const password: string = "P4ssw0rd_for_Te5t+User"
 
 
 test('login failure wrong username', async ({ page }) => {
-    await page.goto('http://localhost:5173/');
+    await page.goto('http://demo.noqapp.se/');
     // Fill in username and password
     await page.locator('#username').fill("WrongUser@test.nu");
     await page.locator('#password').fill(password);
@@ -19,7 +19,7 @@ test('login failure wrong username', async ({ page }) => {
 });
 
 test('login failure wrong password', async ({ page }) => {
-    await page.goto('http://localhost:5173/');
+    await page.goto('http://demo.noqapp.se/');
     // Fill in username and password
     await page.locator("[id='username']").fill(username);
     await page.locator("[id='password']").fill("WrongPassword");
@@ -32,7 +32,7 @@ test('login failure wrong password', async ({ page }) => {
 });
 
 test('user login success', async ({ page }) => {
-    await page.goto('http://localhost:5173/');
+    await page.goto('http://demo.noqapp.se/');
   
     // Fill in username and password
     await page.locator("[id='username']").fill(username);
@@ -46,7 +46,7 @@ test('user login success', async ({ page }) => {
 });
 
 test('host login success', async ({ page }) => {
-  await page.goto('http://localhost:5173/');
+  await page.goto('http://demo.noqapp.se/');
 
   // Fill in username and password
   await page.locator("[id='username']").fill(hostname);
